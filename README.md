@@ -3,19 +3,22 @@
 Preload is a picture preloading jQuery plug-in.
 
 ## application.js
+
 ```
 //= require jquery
 ...
 //= require preload
 ```
 ## Configuration
-| Name      | Type    |  Default  |   Description |
+
+| Name      | Type    | Default   | Description |
 | --------  | ------  | --------- | ------------ |
 | imgs      | Array   |   []      | 预加载的图片地址列表 |
 | options   | Object  |   {}      | 配置参数对象 |
 
 ## options
-| Name      | Type    |  Default  |   Description|
+
+| Name      | Type    |  Default  | Description |
 | --------  | ------  | --------- | ------------ |
 | order     | Boolean  |   false   | 默认值false,代表无序加载 |
 | each      | Function |   null    | 单张图片加载完执行的方法,一般会修改进度状态 |
