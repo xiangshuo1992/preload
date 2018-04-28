@@ -78,7 +78,7 @@
         //图片预加载
         $.preload(imgs, {
             // 是否有序加载
-            order: true,
+            order: false,
             //每加载完一张执行的方法
             each: function (count) {
                 progress.html(Math.round((count) / len * 100) + '%');
