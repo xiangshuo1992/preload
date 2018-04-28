@@ -2,7 +2,7 @@
 
 Preload is a picture preloading jQuery plug-in.
 
-## application.js
+## Application.js
 
 ```
 //= require jquery
@@ -16,7 +16,7 @@ Preload is a picture preloading jQuery plug-in.
 | imgs      | Array   |   []      | 预加载的图片地址列表 |
 | options   | Object  |   {}      | 配置参数对象 |
 
-## options
+## Options
 
 | Name      | Type    |  Default  | Description |
 | --------  | ------  | --------- | ------------ |
