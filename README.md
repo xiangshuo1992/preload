@@ -29,7 +29,7 @@ Preload is a picture preloading jQuery plug-in.
 
 ```
 <style>
-html,body {width: 100%;}
+    html,body {width: 100%;}
     .box {text-align: center;}
     a {display: inline-block;height: 30px;line-height: 30px;border: 1px solid #ccc;background-color: #fff;padding: 0 10px;margin-right: 50px;}
     a:hover {background-color: #aaaaaa;}
