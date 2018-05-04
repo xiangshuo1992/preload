@@ -20,8 +20,8 @@ Preload is a picture preloading jQuery plug-in.
 
 | Name      | Type    |  Default  | Description |
 | --------  | ------  | --------- | ------------ |
-| order     | Boolean  |   false   | 默认值false,代表无序加载 |
-| minTimer     | Number  |   0   | 完成加载的最少时间，单位ms,默认为0，一般展示类型的loading动画会需要设置|
+| order     | Boolean  |   false   | 默认值false，代表无序加载 |
+| minTimer     | Number  |   0   | 完成加载的最少时间，单位ms，默认为0，一般展示类型的loading动画会需要设置|
 | each      | Function |   null    | 单张图片加载完执行的方法,一般会修改进度状态 |
 | end     	| Function |   null    | 所有图片加载完执行的方法，一般会隐藏loading层 |
 
@@ -29,7 +29,7 @@ Preload is a picture preloading jQuery plug-in.
 
 ```
 <style>
-	html,body {width: 100%;}
+html,body {width: 100%;}
     .box {text-align: center;}
     a {display: inline-block;height: 30px;line-height: 30px;border: 1px solid #ccc;background-color: #fff;padding: 0 10px;margin-right: 50px;}
     a:hover {background-color: #aaaaaa;}
