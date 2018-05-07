@@ -56,7 +56,7 @@ Preload is a picture preloading jQuery plug-in.
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/preload.js"></script>
 
 <script>
