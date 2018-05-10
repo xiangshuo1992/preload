@@ -83,7 +83,7 @@ $.preload(imgs, {
     minTimer: 3000,
     //每加载完一张执行的方法
     each: function (count) {
-        var percent = Math.round((count) / len * 100) + '%';
+        var percent = Math.round((count+1) / len * 100) + '%';
         progressInner.css("width",percent);
         progressTxt.html(percent);
     },
