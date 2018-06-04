@@ -40,10 +40,11 @@
             var img = new Image();
             $(img).on('load error', function () {
                 options.each && options.each(count);
-                if (count >= len) {
+                if (count >= len-1) {
                     //所有图片加载完毕,检查是否满足最小loading时间
                     var timerCount = Date.now() - that.timer;
                     if (timerCount < options.minTimer) {
+                        console.log("111")
                         var timeout = options.minTimer - timerCount;
                         setTimeout(function () {
                             options.end && options.end();
@@ -73,7 +74,7 @@
             var img = new Image();
             $(img).on('load error', function () {
                 options.each && options.each(count);
-                if (count >= len) {
+                if (count >= len-1) {
                     //所有图片加载完毕,检查是否满足最小loading时间
                     var timerCount = Date.now() - that.timer;
                     if (timerCount < options.minTimer) {
@@ -91,7 +92,7 @@
         }
     };
     //扩展到jQuery对象上
-    $.extend({
+    $.extend($,{
         preload: function (imgs, options) {
             new Preload(imgs, options);
         }
